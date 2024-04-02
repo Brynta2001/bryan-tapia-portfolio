@@ -1,5 +1,6 @@
 import { DiscordCard } from "./components/DiscordCard";
 import { IntroCard } from "./components/IntroCard";
+import { LinkedInCard } from "./components/LinkedInCard";
 
 export const App = () => {
   return (
@@ -11,6 +12,7 @@ export const App = () => {
       >
         <IntroCard />
         <DiscordCard />
+        <LinkedInCard />
       </div>
     </div>
   );
